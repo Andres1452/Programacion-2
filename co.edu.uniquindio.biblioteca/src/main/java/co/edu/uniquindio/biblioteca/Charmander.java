@@ -1,6 +1,6 @@
 package co.edu.uniquindio.biblioteca;
 
-public class Charmander extends  Pokemon{
+public class Charmander extends  Pokemon implements iFuego{
 
     @Override
     protected void atacarPlacaje() {
@@ -17,6 +17,18 @@ public class Charmander extends  Pokemon{
     @Override
     protected void atacarMordisco() {
         System.out.println ("Hola soy chanmander este y es mi ataqe Mordisco");
+
+    }
+
+    @Override
+    public void AtacarGolpeFuego() {
+        System.out.println ("Este es mi ataque especial golpe de fuego");
+
+    }
+
+    @Override
+    public void AtacarLanzaLLamas() {
+        System.out.println ("Este es mi ataque especial lanxa llamas");
 
     }
 }
