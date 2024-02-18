@@ -26,13 +26,13 @@ public class Bolbasor extends Pokemon implements iPlanta{
 
     @Override
     public void Atacarhojas() {
-        System.out.println ("Este es mi ataque especiel hojas navaja");
+        System.out.println ("soy bolbasor y este es mi ataque especiel hojas navaja");
 
     }
 
     @Override
     public void AtacarLatigaso() {
-        System.out.println ("Este es mi ataque espciel latigaso");
+        System.out.println ("soy bolbasor y este es mi ataque espciel latigaso");
 
     }
 }

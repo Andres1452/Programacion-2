@@ -24,13 +24,13 @@ public class Squarel extends Pokemon implements iAgua{
 
     @Override
     public void AtacarHidrobomba() {
-        System.out.println ("Este es mi ataque especial Hidrobomba");
+        System.out.println ("soy squarel y este es mi ataque especial Hidrobomba");
 
     }
 
     @Override
     public void AtacarBurbija() {
-        System.out.println ("Este es mi ataque especial burbuja ");
+        System.out.println ("soy equarel y este es mi ataque especial burbuja ");
 
     }
 }

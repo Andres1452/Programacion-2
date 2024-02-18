@@ -24,13 +24,13 @@ public class Charmander extends  Pokemon implements iFuego{
 
     @Override
     public void AtacarGolpeFuego() {
-        System.out.println ("Este es mi ataque especial golpe de fuego");
+        System.out.println ("soy charmander y este es mi ataque especial golpe de fuego");
 
     }
 
     @Override
     public void AtacarLanzaLLamas() {
-        System.out.println ("Este es mi ataque especial lanxa llamas");
+        System.out.println ("soy charmander y este es mi ataque especial lanza llamas");
 
     }
 }
