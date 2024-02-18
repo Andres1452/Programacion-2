@@ -1,6 +1,8 @@
 package co.edu.uniquindio.biblioteca;
 
 public class Charmander extends  Pokemon implements iFuego{
+    public Charmander() {
+    }
 
     @Override
     protected void atacarPlacaje() {

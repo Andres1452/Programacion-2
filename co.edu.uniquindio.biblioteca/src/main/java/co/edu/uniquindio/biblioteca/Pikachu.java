@@ -1,6 +1,9 @@
 package co.edu.uniquindio.biblioteca;
 
 public class Pikachu extends Pokemon implements iElectrico {
+    public Pikachu() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println ("Hola soy Pikachu y este es mi ataqe Placaje");

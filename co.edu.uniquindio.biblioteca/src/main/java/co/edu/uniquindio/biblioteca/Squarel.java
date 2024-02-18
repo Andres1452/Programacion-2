@@ -1,6 +1,9 @@
 package co.edu.uniquindio.biblioteca;
 
 public class Squarel extends Pokemon implements iAgua{
+    public Squarel() {
+    }
+
     @Override
     protected void atacarPlacaje() {
         System.out.println ("Hola soy Squarel y este es mi ataqe Placaje");
